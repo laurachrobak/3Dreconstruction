@@ -1,7 +1,7 @@
 # 3Dreconstruction
-+This repository provides a python script to make 3D reconstruction using PhotoScan
++ This repository provides a python script to make 3D reconstruction using PhotoScan
 
-+This tutorial explains how to create a 3D reconstruction using PhotoScan. A few things that are required include: a PhotoScan license, images, and a camera calibration.
++ This tutorial explains how to create a 3D reconstruction using PhotoScan. A few things that are required include: a PhotoScan license, images, and a camera calibration.
 
 # Start
 PhotoScan has a GUI version that is easy to use, however, this tutorial uses a python script to access the PhotoScan API. The underwater images that are used to make the results presented here are color corrected using closed-source software and were collected and preprocessed by Katie Skinner. Finally, for camera calibration refer to Matlab or OpenCV. 
