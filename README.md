@@ -1,4 +1,8 @@
-# 3Dreconstruction
+# 3D Reconstruction Using PhotoScan
+<p align="center">
+  <img src="https://github.com/laurachrobak/3Dreconstruction/blob/master/crescent_reef_processed.png?raw=true"/>
+</p>
+
 + This repository provides a python script to make 3D reconstruction using PhotoScan
 
 + A few things that are required include: a PhotoScan license, images, and camera parameters.
