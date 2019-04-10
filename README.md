@@ -1,10 +1,10 @@
 # 3Dreconstruction
 + This repository provides a python script to make 3D reconstruction using PhotoScan
 
-+ This tutorial explains how to create a 3D reconstruction using PhotoScan. A few things that are required include: a PhotoScan license, images, and a camera calibration.
++ A few things that are required include: a PhotoScan license, images, and camera parameters.
 
 # Start
-PhotoScan has a GUI version that is easy to use, however, this tutorial uses a python script to access the PhotoScan API. The underwater images that are used to make the results presented here are color corrected using closed-source software and were collected and preprocessed by Katie Skinner. Finally, for camera calibration refer to Matlab or OpenCV. 
+PhotoScan has a GUI version that is easy to use, however, this tutorial uses a python script to access the PhotoScan API. The underwater images that are used to make the results presented here are color corrected using closed-source software and were collected and preprocessed by [Katie Skinner](https://kskin.github.io/katiesrobots/).
 
 # Run
 To run this code use the following command in the folder containing photoscan.sh:
@@ -17,11 +17,11 @@ And example of this line can be seen below below:
 ```
 # Code Modifications
 
-1) Depending on how many GPUs one is looking to run change the following line: 
+1) Depending on how many GPUs are being used, change the following line: 
 ```
 	‘PhotoScan.app.gpu_mask = 15’, change 15 to 11, for example, so that only 3 GPUs are used
 ```
-2) The quality and accuracy of the reconstruction can be changed to Low or Medium depending on the output you are looking for. It is good practice to start with a small subset of your images and do a low quality build to make sure everything runs correctly first. Then do a higher quality build of all of the images. Finally, if the previous two reconstructions go smoothly then you can make a high accuracy reconstruction of all of the images. Using one GPU on high accuracy, quality, and face count can take more than a day so its best to start small. 
+2) The quality and accuracy of the reconstruction can be changed to Low or Medium depending on the output you are looking for. It is good practice to start with a small subset of your images and do a low quality build to make sure everything runs correctly first. Then do a higher quality build of all of the images. Finally, if the previous two reconstructions go smoothly then you can make a high accuracy reconstruction of all of the images. Using one GPU for a high accuracy, quality, and face count reconstruction can take more than a day so its best to start small. 
 
 The above can be changed under, ### Processing parameters
 ```
