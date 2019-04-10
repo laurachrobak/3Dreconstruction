@@ -8,7 +8,7 @@
 + A few things that are required include: a PhotoScan license, images, and camera parameters.
 
 # Start
-PhotoScan has a GUI version that is easy to use, however, this tutorial uses a python script to access the PhotoScan API. The underwater images that are used to make the results presented here are color corrected using closed-source software and were collected by Drop lab in collaboration with the WHOI and University of Georgia. An object file of the 3D reconstruction can be found [here](https://umich.box.com/s/4lvs2cu2nsgcbptf4c6klisq3lsych7w). The images used to make this reconstruction were taken at Crescent Reef, [Bermuda](https://www.pmel.noaa.gov/co2/story/Crescent+Reef).
+PhotoScan has a GUI version that is easy to use, however, this tutorial uses a python script to access the PhotoScan API. The underwater images that are used to make the results presented here are color corrected using closed-source software and were collected by Drop lab in collaboration with the WHOI and University of Georgia. An object file of the 3D reconstruction can be found [here](https://umich.box.com/s/4lvs2cu2nsgcbptf4c6klisq3lsych7w). The images used to make the reconstruction shown above were taken at Crescent Reef, [Bermuda](https://www.pmel.noaa.gov/co2/story/Crescent+Reef).
 
 # Run
 To run this code use the following command in the folder containing photoscan.sh:
