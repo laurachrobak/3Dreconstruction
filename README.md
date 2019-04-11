@@ -37,7 +37,14 @@ Ex. change to:
 ```
 accuracy = PhotoScan.Accuracy.LowAccuracy  #align photos accuracy
 ```
-3) Certain camera parameters such as camera sensor width and height (in pixels), pixel size, and focal length can be changed under heading, # Create Sensor definitions, according to the camera used to collect the images. Furthermore, if using a stereo camera the baseline between the two cameras, in meters, can be changed in the line below:
+3) Certain camera parameters such as camera sensor width and height (in pixels), pixel size, and focal length (mm) can be changed under heading, # Create Sensor definitions, according to the camera used to collect the images. 
+```
+sensor_fore.width        = 1360 #chunk.cameras[-1].sensor.width
+sensor_fore.height       = 1024 #chunk.cameras[-1].sensor.height
+sensor_fore.pixel_size   = [0.00645, 0.00645]
+sensor_fore.focal_length = 8 
+```
+Furthermore, if using a stereo camera the baseline between the two cameras, in meters, can be changed in the line below:
 ```
 scalebar.reference.distance = 0.1282
 ```
