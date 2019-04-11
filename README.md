@@ -23,7 +23,7 @@ And example of this line can be seen below below:
 
 1) Depending on how many GPUs are being used, change the following line: 
 ```
-	‘PhotoScan.app.gpu_mask = 15’, change 15 to 11, for example, so that only 3 GPUs are used
+	‘PhotoScan.app.gpu_mask = 15’, change 15 to 11, for example, so that only 2 GPUs are used
 ```
 2) The quality and accuracy of the reconstruction can be changed to Low or Medium depending on the output you are looking for. It is good practice to start with a small subset of your images and do a low quality build to make sure everything runs correctly first. Then do a higher quality build of all of the images. Finally, if the previous two reconstructions go smoothly then you can make a high accuracy reconstruction of all of the images. Using one GPU for a high accuracy, quality, and face count reconstruction can take more than a day so its best to start small. 
 
